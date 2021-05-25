@@ -28,4 +28,7 @@ Route::middleware(['auth', 'verified'])->group(function (){
 
     //Edit password page
     Route::view('/password/edit', 'profile.edit-password')->name('password.edit');
+
+    //Toggle two factor authentication page
+    Route::view('/two-factor-authentication/toggle', 'profile.toggle-two-factor-authentication')->name('two-factor-authentication.toggle');
 });

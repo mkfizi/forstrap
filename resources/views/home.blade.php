@@ -13,7 +13,8 @@
             <div class="card-body">          
                 <p class="my-3">{{ __('Greetings, ') }}{{ Auth::user()->name }}</p>  
                 <a href="{{ route('profile.edit') }}" class="d-block">{{ __('Edit profile')}}</a>
-                <a href="{{ route('password.edit') }}" class="d-block mb-3">{{ __('Edit password')}}</a>
+                <a href="{{ route('password.edit') }}" class="d-block">{{ __('Edit password')}}</a>
+                <a href="{{ route('two-factor-authentication.toggle') }}" class="d-block mb-3">{{ __('Toggle two factor authentication')}}</a>
             </div>
             <div class="card-footer text-center">
 
@@ -21,7 +22,7 @@
                     @csrf
                     <button type="submit" class="btn btn-danger">{{ __('Logout') }}</button>
                 </form>
-                
+
             </div>
         </div>
 
