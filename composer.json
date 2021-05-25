@@ -1,5 +1,5 @@
 {
-    "name": "mkfizi/fortify",
+    "name": "mkfizi/forstrap",
     "type": "project",
     "description": "Laravel 8 authentication boilerplate using Laravel Fortify package and stylized with Bootstrap 5 CSS framework.",
     "keywords": ["framework", "laravel"],
