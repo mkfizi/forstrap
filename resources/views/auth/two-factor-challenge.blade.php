@@ -40,6 +40,13 @@
                     </div>
                 </form>
 
+                <form action="{{ route('two-factor-recovery-codes.send') }}" method="POST">
+                    @csrf
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-link p-0">{{ __('Email recovery codes') }}</button>
+                    </div>
+                </form>
+
             </div>
             <div class="card-footer text-center">
                 <a href="{{ route('login') }}">{{ __('Return to login') }}</a>

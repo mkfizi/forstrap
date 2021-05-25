@@ -32,3 +32,6 @@ Route::middleware(['auth', 'verified'])->group(function (){
     //Toggle two factor authentication page
     Route::view('/two-factor-authentication/toggle', 'profile.toggle-two-factor-authentication')->name('two-factor-authentication.toggle');
 });
+
+//Send two factor recovery codes email
+Route::post('/user/two-factor-recovery-codes/email', 'App\Http\Controllers\EmailController@sendTwoFactorRecoveryCodes')->name('two-factor-recovery-codes.send');
