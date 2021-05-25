@@ -11,7 +11,7 @@ Run this command below where app is the folder you want to create your project w
 composer create-project mkfizi/forstrap app
 
 ```
-Run this command after you change you **.env** file
+Run this command after you change your **.env** file
 
 ```shell
 
