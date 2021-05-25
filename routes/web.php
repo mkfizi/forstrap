@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Group routes to go through auth & verified middlewares
 Route::middleware(['auth', 'verified'])->group(function (){
+    
+    //Home page
     Route::view('/home', 'home')->name('home');
+
+    //Edit profile page
+    Route::view('/profile/edit', 'profile.edit-profile')->name('profile.edit');
 });

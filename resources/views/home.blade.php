@@ -11,7 +11,8 @@
         <div class="card mb-5">
             <div class="card-header text-center">@yield('title')</div>
             <div class="card-body">          
-                <p>{{ __('Greetings, ') }}{{ Auth::user()->name }}</p>  
+                <p class="my-3">{{ __('Greetings, ') }}{{ Auth::user()->name }}</p>  
+                <a href="{{ route('profile.edit') }}" class="d-block mb-3">{{ __('Edit profile')}}</a>
             </div>
             <div class="card-footer text-center">
                 <form action="{{ route('logout') }}" method="POST">
