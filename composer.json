@@ -1,9 +1,15 @@
 {
-    "name": "laravel/laravel",
+    "name": "mkfizi/fortify",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Laravel 8 authentication boilerplate using Laravel Fortify package and stylized with Bootstrap 5 CSS framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "mkfizi",
+            "email": "mkfizi93@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
