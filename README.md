@@ -1,6 +1,6 @@
-# Fortify Bootstrap Scaffolding
+# Forstrap
 
-Fortify Bootstrap Scaffolding is a Laravel 8 authentication boilerplate using Fortify package and stylized with Bootstrap 5 CSS framework without the complexity of Jetstream and TailwindCSS and extends Laravel Fortify base features.
+Forstrap is a Laravel 8 authentication boilerplate using Fortify package and stylized with Bootstrap 5 CSS framework without the complexity of Jetstream and TailwindCSS and extends Laravel Fortify base features.
 
 ## How To Use This?
 
