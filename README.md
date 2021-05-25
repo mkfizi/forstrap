@@ -40,11 +40,11 @@ App
 Resources
 |Views
 |-Emails
-|--two-factor-recovery-codes.blade
+|--two-factor-recovery-codes.blade.php
 ```
 
 ### Route
-The route for this feature can be located in web.php with these lines
+The route for this feature can be located in web.php with this line
 ```shell
 Route::post('/user/two-factor-recovery-codes/email', 'App\Http\Controllers\EmailController@sendTwoFactorRecoveryCodes')->name('two-factor-recovery-codes.send');
 ```
