@@ -31,16 +31,16 @@ Aside from the out of the box Fortify's authentication features, this boilerplat
 ### Folder Structure
 The files for this features can be located in these folders
 ```shell
-App
-|Http
-|-Controllers
-|--EmailController.php
-|Mail
-|-TwoFactorRecoveryCodes.php
-Resources
-|Views
-|-Emails
-|--two-factor-recovery-codes.blade.php
+App/
+|--Http/
+|  |--Controllers
+|     |--EmailController.php
+|--Mail/
+   |--TwoFactorRecoveryCodes.php
+Resources/
+|--Views/
+   |--Emails/
+      |--two-factor-recovery-codes.blade.php
 ```
 
 ### Route
