@@ -17,7 +17,7 @@
                     <div class="mb-3">
                         {{ __('Your account is not verified, please check your email for a verification link. If you did not receive the email, you may request a new verification link.') }}
                     </div>
-                    <div class="text-center">
+                    <div class="text-center mb-3">
                         <button type="submit" class="btn btn-primary">{{ __('Resend Verification Link') }}</button>
                     </div>
                 </form>

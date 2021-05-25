@@ -23,7 +23,7 @@
                         <label for="inputConfirmPassword" class="form-label">{{ __('Password') }}</label>
                         <input type="password" class="form-control" id="inputConfirmPassword" name="password_confirmation" placeholder="{{ __('Confirm password') }}" required>
                     </div>         
-                    <div class="text-center">
+                    <div class="text-center mb-3">
                         <button type="submit" class="btn btn-primary">{{ __('Reset Password') }}</button>
                     </div>
                 </form>

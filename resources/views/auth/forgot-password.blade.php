@@ -20,7 +20,7 @@
                     <div class="my-3">
                         <input type="email" class="form-control" id="inputEmail" name="email" placeholder="{{ __('Enter email address') }}" value="{{ old('email') }}" required>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center mb-3">
                         <button type="submit" class="btn btn-primary">{{ __('Send Password Reset Link') }}</button>
                     </div>
                 </form>
