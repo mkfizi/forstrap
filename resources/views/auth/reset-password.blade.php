@@ -8,7 +8,7 @@
 <h1 class="text-center display-5 my-5"><a href="{{ url('/') }}" class="text-decoration-none link-dark">{{ __("Forstrap") }}</a></h1>
 <div class="row justify-content-center">
     <div class="col-lg-5">        
-        <div class="card mb-5">
+        <div class="card mb-3">
             <div class="card-header text-center">@yield('title')</div>
             <div class="card-body">                            
                 <form action="{{ route('password.update') }}" method="POST">
