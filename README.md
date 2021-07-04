@@ -22,7 +22,7 @@ php artisan migrate
 That's it! Your new app is now ready with authentication features
 
 ### Email Configuration
-In order to experience the complete Laravel Fortify and Forstrap authentication features, you must set your email configuration in **.env** file.  You may use [mailtrap.io](https://mailtrap.io/) for development purpose and use it's SMTP integration codes in you **.env** file.
+In order to experience the complete Laravel Fortify and Forstrap authentication features, you must set your email configuration in **.env** file.  You may use [mailtrap.io](https://mailtrap.io/) for development purpose and use it's SMTP integration codes in your **.env** file.
 
 ## Extended Feature
 
